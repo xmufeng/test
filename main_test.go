@@ -6,9 +6,10 @@ import (
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"
 	"net/http"
+	"testing"
 )
 
-func main() {
+func TestHttpServer(t *testing.T) {
 	globalMux := http.NewServeMux()
 
 	apiRouter := mux.NewRouter()

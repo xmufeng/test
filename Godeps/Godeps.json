@@ -1,0 +1,17 @@
+{
+	"ImportPath": "github.com/xmufeng/test",
+	"GoVersion": "go1.3.3",
+	"Packages": [
+		"github.com/xmufeng/test"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/xmufeng/fibnacii",
+			"Rev": "91c404d7c66a7f9ded5447fa75c9d9b77330c5dc"
+		},
+		{
+			"ImportPath": "github.com/xmufeng/mprint",
+			"Rev": "ea2ff6deb57c21d706d84534335afe4aa24bbf9d"
+		}
+	]
+}
